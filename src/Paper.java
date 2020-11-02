@@ -1,7 +1,6 @@
-public class Scissors {
+public class Paper {
     String cpuAnswer;
-
-    public Scissors(int choice) {
+    public Paper(int choice) {
         switch (choice) {
             case 1:
                 cpuAnswer = "rock";
